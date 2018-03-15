@@ -10,15 +10,13 @@ class App extends Component {
     return (
       <div className="App">
         <Heading />
-        <Navigation />
-        <p className="App-intro">
-          Slow loris doesn't swim and certainly doesn't like to get wet.
-        </p>
-        hello {process.env.REACT_APP_WEATHER_KEY}
-        {console.log(process.env)}
+        
+        <Game />
       </div>
     );
   }
 }
+
+
 
 export default App;
