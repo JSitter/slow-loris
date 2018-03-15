@@ -12,9 +12,10 @@ class App extends Component {
         <Heading />
         <Navigation />
         <p className="App-intro">
-          Slow loris doesn't swim and certainly doesn't like to get wet. 
+          Slow loris doesn't swim and certainly doesn't like to get wet.
         </p>
         hello {process.env.REACT_APP_WEATHER_KEY}
+        {console.log(process.env)}
       </div>
     );
   }
