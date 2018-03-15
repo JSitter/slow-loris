@@ -3,3 +3,21 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero{
+  border-radius: 100px;
+  width: 100px;
+}
+
+.board{
+  background-color: #999;
+  height: 500px;
+  width: 800px;
+}
