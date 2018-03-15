@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Heading from './heading'
 import Navigation from './navigation'
-const mongoose = require('mongoose');
+
 
 
 class App extends Component {
