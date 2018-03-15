@@ -2,4 +2,7 @@
     Main file for Tween Animation Library
 */
 
-TweenMax.to("h1", 2, {height:0});
+window.onload = function(){
+    TweenLite.to(".App-logo", 10, {left:600});
+    TweenMax.to("h1", 2, {"margin-left":200});
+   }
