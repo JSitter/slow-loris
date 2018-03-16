@@ -7,9 +7,14 @@ import Game from './components/game'
 
 
 class App extends Component {
+
+
   render() {
+    let  handleKeyPress = ()=>{
+      console.log("e")
+    }
     return (
-      <div className="App">
+      <div className="App" onKeyPress={handleKeyPress}>
         <Heading />
         
         <Game />
