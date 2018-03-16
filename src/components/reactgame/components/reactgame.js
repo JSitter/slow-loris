@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Loop, Stage } from 'react-game-kit';
 
 class ReactGame extends Component {
     render(){
