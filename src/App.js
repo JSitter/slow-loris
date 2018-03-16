@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Heading from './heading'
 import Navigation from './navigation'
-import Game from './components/game'
+import ReactGame from './components/reactgame'
 
 
 
@@ -17,7 +17,7 @@ class App extends Component {
       <div className="App" onKeyPress={handleKeyPress}>
         <Heading />
         
-        <Game />
+        <ReactGame />
       </div>
     );
   }
